@@ -10,8 +10,8 @@ st.set_page_config(
 )
 
 BASE_DIR = Path(__file__).resolve().parent.parent
-MODEL_PATH = BASE_DIR / "models" / "best_model.pkl"
-DATA_PATH = BASE_DIR / "data" / "processed" / "cleaned_car_data.csv"
+MODEL_PATH = BASE_DIR / "Models" / "best_model.pkl"
+DATA_PATH = BASE_DIR / "Data" / "Processed" / "cleaned_car_data.csv"
 
 model = joblib.load(MODEL_PATH)
 df = pd.read_csv(DATA_PATH)
