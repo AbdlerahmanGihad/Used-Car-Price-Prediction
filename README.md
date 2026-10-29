@@ -8,6 +8,15 @@ Buying or selling a used car can be challenging because prices depend on several
 
 This project uses historical car data to build a regression model that estimates the selling price of a used car.
 
+## 🚀 Live Demo
+
+Try the deployed application here:
+
+**[Used Car Price Prediction – Live App](https://used-car-price-prediction-a5hgsy3jmwmyihcwjqy4mt.streamlit.app/)**
+
+Enter car details and get an estimated selling price using a trained Machine Learning model.
+
+> **Note:** The model is trained on the Indian CarDekho dataset. The USD conversion is approximate, and predictions do not represent actual US market prices.
 ## Objectives
 
 - Clean and prepare the dataset.
